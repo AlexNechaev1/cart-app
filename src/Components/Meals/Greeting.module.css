@@ -1,0 +1,14 @@
+.greeting{
+    position: relative;
+
+    max-width: 45rem;
+    width: 90%;
+    margin: auto;
+    margin-top: -10rem;
+    margin-bottom: 5rem;
+
+    text-align: center;
+
+    background-color: #335c67;
+    color:#fff3b0;
+}

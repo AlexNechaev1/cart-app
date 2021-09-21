@@ -1,0 +1,49 @@
+.button__alt {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 6rem;
+
+  padding: 0.5rem 2rem;
+
+  border: 1px solid #fff3b0;
+
+  background-color: #fff3b0;
+  color: #9e2a2b;
+
+  border-radius: 10px;
+
+  font-weight: bolder;
+}
+
+.button__alt:hover {
+  background-color: #fff3b0;
+  border: 1px solid #9e2a2b;
+}
+
+.button__alt:active {
+  color: #521314;
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 5rem;
+}
+
+.controls {
+  display: flex;
+  flex-direction: row-reverse;
+  margin: 2rem 0 0 0;
+}
+
+.list {
+  max-height: 20rem;
+  overflow-y: scroll;
+  scrollbar-width: none;
+}
+
+.list::-webkit-scrollbar {
+  display: none;
+}

@@ -1,0 +1,13 @@
+.selector {
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  width: 2rem;
+  text-align: center;
+}
+
+label {
+  margin: 0 0.5rem 0 0;
+}
